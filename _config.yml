@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: InnovateED
+title: InnovatED
 email: post@innovated.no
 description: >- # this means to ignore newlines until "baseurl:"
   InnovatED AS is a company by teachers for teachers, working on innovating how we teach with technology.

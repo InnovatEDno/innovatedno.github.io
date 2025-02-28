@@ -1,13 +1,64 @@
+.section {
+  padding: 50px 0;
+  text-align: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.button {
+  background-color: $brand-color;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+
+  &:hover {
+    background-color: lighten($brand-color, 20%);
+  }
+}
+
 /**
  * Site header
  */
+.header-negativespace {
+  border-top: 5px solid $grey-color-dark;
+  border-bottom: 1px solid $grey-color-light;
+  min-height: $spacing-unit * 1.865;
+}
 .site-header {
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff; /* Adjust as needed */
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .site-title {
