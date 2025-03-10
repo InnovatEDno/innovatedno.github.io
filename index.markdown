@@ -5,5 +5,4 @@
 layout: home
 ---
 
-# InnovatED
-## Innovation in education, for teachers, by teachers
+
