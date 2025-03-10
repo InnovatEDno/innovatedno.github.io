@@ -231,6 +231,11 @@ p {
   flex: 1;
 }
 
+.home-page-content {
+  padding: 0 0;
+  flex: 1;
+}
+
 .page-heading {
   @include relative-font-size(2);
 }
